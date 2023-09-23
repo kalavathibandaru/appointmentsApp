@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 80vh;
+  width: 55vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 48vw;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #171f46;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.title-input {
+  height: 30px;
+  min-width: 250px;
+  border-style: solid;
+  border-color: #b5b7c4;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.button {
+  font-family: 'Roboto';
+  background-color: #8b5cf6;
+  width: 50px;
+  padding: 5px;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.appointment {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 60px;
+}
+
+.appointment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.non-styled-button {
+  margin-right: 60px;
+  color: #9897f0;
+  font-family: 'Roboto';
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #9897f0;
+  border-width: 1px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.styled-button {
+  margin-right: 60px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+  background-color: #9897f0;
+  border-style: solid;
+  border-color: #9897f0;
+  border-width: 1px;
+  border-radius: 5px;
+  font-weight: 500;
+}
